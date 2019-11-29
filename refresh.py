@@ -117,8 +117,7 @@ def refresh_screen():
     while True:
         time.sleep(delay)
         get_screen()
-        text.delete('1.0', 'end')
-        text.insert(tk.INSERT, transform(screen))
+        text.replace('1.0', tk.END, transform(screen))
         print(screen)
 
 
