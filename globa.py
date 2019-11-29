@@ -4,7 +4,7 @@ import tkinter as tk
 width = 60
 height = 40
 screen = []
-delay = 1
+delay = 0.2
 
 #生命符号
 black = '■'
